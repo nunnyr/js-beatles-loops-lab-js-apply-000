@@ -43,7 +43,7 @@ function iLoveTheBeatles(number) {
     finalArray.push("I love the Beatles!")
     i++;
     
-  } while(i <= number);
+  } while(i <= number ** i < 15);
   return finalArray;
 
 }
