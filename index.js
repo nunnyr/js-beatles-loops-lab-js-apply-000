@@ -44,6 +44,7 @@ function iLoveTheBeatles(number) {
     i++;
     
   } while(i <= number && i < 15);
+  
   return finalArray;
 
 }
