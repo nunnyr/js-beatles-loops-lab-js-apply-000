@@ -40,10 +40,10 @@ function iLoveTheBeatles(number) {
   var i = 0;
   
   do {
-    finalArray += "I love the Beatles!"
+    finalArray.push("I love the Beatles!")
     i++;
     
-  } while(i < 15);
+  } while(i < number);
   return finalArray;
 
 }
