@@ -39,7 +39,9 @@ function iLoveTheBeatles(number) {
   var finalArray = [];
   var i = 0;
   
-  do
+  do {
+    
+  } while( );
 
 }
 
