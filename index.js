@@ -8,21 +8,26 @@ var final = [];
 
 function theBeatlesPlay(arrayOne, arrayTwo) {
   for(var i = 0; i < 4; i++) {
-    var newSent = `${musicians[i]} plays ${instruments[i]}`;
-    final.push(newSent);
+    var newSentence = `${musicians[i]} plays ${instruments[i]}`;
+    final.push(newSentence);
   }
   return final;
 }
 
+
 const facts = [ "He was the last Beatle to learn to drive", "He was never a vegetarian", "He was a choir boy and boy scout", "He hated the sound of his own voice"];
 
-var excitingFacts = [];
-var counter = 0;
-function johnLennonFacts () {
+function johnLennonFacts(facts) {
 
-  while(counter < 5) {
-    var exclaim = `${facts[i]}!`;
-    excitingFacts.push(exclaim);
+  var excitingFacts = [];
+  var i = 0;
+
+  while(i < 4) {
+    
+    //console.log("exclaiming", i)
+    excitingFacts.push(facts[i] + "!!!");
+    i++;
+
   }
   return excitingFacts;
 }
