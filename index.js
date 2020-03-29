@@ -40,6 +40,8 @@ function iLoveTheBeatles(number) {
   var i = 0;
   
   do {
+    finalArray += "I love the Beatles!"
+    i++;
     
   } while( );
 
