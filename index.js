@@ -23,8 +23,6 @@ function johnLennonFacts(facts) {
   var i = 0;
 
   while(i < 4) {
-    
-    //console.log("exclaiming", i)
     excitingFacts.push(facts[i] + "!!!");
     i++;
 
